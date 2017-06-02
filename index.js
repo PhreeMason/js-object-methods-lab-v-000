@@ -6,7 +6,7 @@ class President {
     this.yearsInOffice = yearsInOffice
     this.homeState = homeState
   }
- 
+
   veto() {
     return 'NO!';
   }
@@ -14,20 +14,20 @@ class President {
     passBill() {
         return 'You can do that!'
     }
-    
+
     doCharity() {
         return 'I like to help people.'
     }
 
     conductPressInterview() {
-        return 'I am proud to be an American'
+        return 'I am proud to be an American.'
     }
 
     sayHi() {
-        return `Hi, my name is $(this.name). I am from $(this.homeState). I represent the $(this.politicalParty)s, and was in office $(this.yearsInOffice).` 
+        return `Hi, my name is ${this.name}. I am from ${this.homeState}. I represent the ${this.politicalParty}s, and was in office ${this.yearsInOffice}.`
     }
 }
- 
+
  var george = new President('George Washington')
  var abraham = new President('Abraham Lincoln')
  var richard = new President('Richard Nixon')
